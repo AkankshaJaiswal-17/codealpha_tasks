@@ -17,5 +17,18 @@
 - Tested Python scripts.
 - Organized the credit scoring project folder.
 
+## Day 4 — 23 November 2026
+- Explored the Credit Scoring dataset.
+- Identified input features and target variable.
+- Practised Exploratory Data Analysis (EDA) using Pandas.
+- Checked dataset shape, information and data types.
+- Checked missing values and duplicate records.
+- Generated descriptive statistics using describe().
+- Created and executed day4_eda.py successfully.
+
+### Key Learning
+Understood the basic steps of inspecting and
+understanding a dataset before model development.
+
 ## Daily Learning
 More updates will be added as the internship progresses.
