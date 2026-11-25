@@ -19,3 +19,7 @@ Thumbs.db
 
 # Secrets
 .env
+
+# Raw datasets - do not upload
+/Credit Scoring Model/data/
+*.csv
