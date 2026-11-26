@@ -129,5 +129,37 @@ Next Step
 
 Begin data preprocessing after completing further feature and data-quality checks.
 
+## Day 6 - 25 Nov 2026
+
+### Duplicate Record Analysis
+- Initially, the original dataset contained 0 duplicate rows.
+- After removing identifier columns, 8 duplicate feature combinations were identified (16 rows involved).
+- These records were retained because different customers may have identical feature values.
+- Removing them could lead to unnecessary data loss.combinations were identified (16 rows involved).
+
+These records were retained because different customers
+may have identical feature values. Removing them could
+result in unnecessary data loss.
+
+### Target Variable Analysis
+- Total records: 233,154
+- No Default (0): 182,543 (78.29%)
+- Default (1): 50,611 (21.71%)
+- Observation: The dataset has class imbalance.
+- Decision: Accuracy alone will not be sufficient
+  for evaluating the classification model.
+
+  ### Day 6 – Data Preprocessing
+- Handled missing Employment.Type values using Unknown.
+- Converted date columns into datetime format.
+- Corrected future DOB interpretations.
+- Created Age feature at disbursement.
+- Removed UniqueID, Employee_code_ID and Date.of.Birth.
+- Checked missing values: 0 remaining.
+- Identified 8 duplicate feature combinations (16 rows involved); retained them.
+- Analysed target distribution and identified class imbalance.
+- Saved and verified train_preprocessed.csv.
+- Final dataset shape: 233154 rows × 39 columns.
+
 ## Daily Learning
 More updates will be added as the internship progresses.
