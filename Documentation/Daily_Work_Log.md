@@ -161,5 +161,21 @@ result in unnecessary data loss.
 - Saved and verified train_preprocessed.csv.
 - Final dataset shape: 233154 rows × 39 columns.
 
+Day 7 – Feature Engineering
+
+- Identified numerical, categorical, date and duration features.
+- Converted average account age into months.
+- Converted credit history length into months.
+- Extracted month and year from disbursal dates.
+- Investigated categorical feature cardinality.
+- Compared credit score values with their descriptions.
+- Analysed default rates across credit-score groups.
+- Created "Has_Normal_Bureau_Score" as a derived feature.
+- Verified all four newly engineered features.
+- Confirmed zero missing values in the new features.
+- Saved the engineered dataset locally.
+
+Dataset: 233,154 rows × 44 columns.
+
 ## Daily Learning
 More updates will be added as the internship progresses.
