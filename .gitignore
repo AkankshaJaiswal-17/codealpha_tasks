@@ -23,3 +23,6 @@ Thumbs.db
 # Raw datasets - do not upload
 /Credit Scoring Model/data/
 *.csv
+
+# Saved prepocessor
+*.pkl

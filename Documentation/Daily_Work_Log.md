@@ -177,5 +177,28 @@ Day 7 – Feature Engineering
 
 Dataset: 233,154 rows × 44 columns.
 
+Day 8 – Feature Selection and Data Preprocessing
+
+- Loaded the feature-engineered dataset containing 233,154 records and 44 columns.
+- Separated independent features (X) and target variable (y).
+- Removed unnecessary identifier and location-related columns from the baseline feature set.
+- Identified 25 numerical and 3 categorical features.
+- Performed an 80:20 stratified train-test split.
+- Applied median imputation and StandardScaler to numerical features.
+- Applied most-frequent imputation and OneHotEncoder to categorical features.
+- Used ColumnTransformer and Pipeline for preprocessing.
+- Fitted preprocessing transformations only on training data.
+- Transformed training and testing datasets into 42 features.
+- Saved the fitted preprocessing pipeline as "preprocessor.pkl".
+
+Final Dataset:
+
+- Training records: 186,523
+- Testing records: 46,631
+- Processed training shape: 186,523 × 42
+- Processed testing shape: 46,631 × 42
+
+Status: Feature selection and preprocessing completed.
+
 ## Daily Learning
 More updates will be added as the internship progresses.
